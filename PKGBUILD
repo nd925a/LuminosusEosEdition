@@ -25,7 +25,6 @@ build() {
 
 package() {
    cd "$srcdir/$_uspkgname-$pkgver"
-   make prefix="/usr" DESTDIR="$pkgdir" install
-   install -Dm644 "$pkgdir/usr/bin/$pkgname" "$pkgdir/usr/share/applications/$pkgname.desktop"
+   make DESTDIR="$pkgdir" install
 }
 

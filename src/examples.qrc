@@ -1,8 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>examples/Tutorial.lpr</file>
-        <file>examples/No Project (Crashed).lpr</file>
-        <file>examples/No Project.lpr</file>
-        <file>examples/PowerPoint Fixture.lbc</file>
-    </qresource>
-</RCC>
